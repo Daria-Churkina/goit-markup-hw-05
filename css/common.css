@@ -109,6 +109,13 @@ footer {
 
   color: var(--title-text-color);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-bg-color);
 }
 
 .site-nav {
@@ -131,11 +138,6 @@ footer {
 
 .site-nav .item.portfolio {
   margin-right: 50px;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-bg-color);
 }
 
 .contact-nav {
@@ -185,6 +187,8 @@ footer {
   display: flex;
   color: var(--primaty-text-color);
   text-decoration: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-nav .link:hover,
@@ -279,6 +283,8 @@ footer {
 
 .join-social .link {
   text-decoration: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-social .link:hover {
@@ -294,6 +300,9 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-detail:hover,
